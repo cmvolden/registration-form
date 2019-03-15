@@ -1,11 +1,23 @@
-body {
-  font-family: Open Sans, sans-serif;
+html {
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
   border-bottom: 1px solid #000;
 }
 
-legend {
-  font-style: italic;
+.btn {
+  align-items: center;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .space-right {
+    padding-right: .5rem;
+  }
+
+  .space-left {
+    padding-left: .5rem;
+  }
+
 }
